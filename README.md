@@ -25,44 +25,7 @@ Versión 0.1
  
 Plantilla de GDD por Alberto Blanco, Cosmic Works Studios.
 
-1. Introducción	3
-1.1 Descripción breve del concepto	3
-1.2 Descripción breve de la historia y personajes	3
-1.3 Propósito, público objetivo y plataformas	3
-2. Monetización	3
-2.1 Tipo de modelo de monetización	3
-2.2 Tablas de productos y precios	3
-3. Planificación y Costes	3
-3.1 El equipo humano	3
-3.2 Estimación temporal del desarrollo	3
-3.3 Costes asociados	4
-4.     Mecánicas de Juego y Elementos de Juego (Añadir esquemas o tablas para tener un acceso mucho más rápido a la información en caso de necesitarlo)	4
-4.1 Descripción detallada del concepto de juego	4
-4.2 Descripción detallada de las mecánicas de juego	4
-4.2.1 Victoria y derrota	4
-4.2.2 Mapa	4
-4.2.3 Economía	5
-4.2.4 Defensas y enemigos (Añadir referencias del mismo documento al apartado de Torres y el apartado de Enemigos)	5
-4.3 Controles	5
-4.4 Niveles y misiones	6
-4.5 Objetos, armas y power ups	6
-5. Trasfondo	7
-5.1 Descripción detallada de la historia y la trama	7
-5.2 Personajes	7
-5.3 Entornos y lugares	7
-6. Arte	7
-6.1 Estética general del juego	7
-6.2 Apartado visual	7
-6.3 Música	7
-6.4 Ambiente sonoro	7
-7. Interfaz	8
-7.1 Diseños básicos de los menús	8
-7.2 Diagrama de flujo	8
-8. Hoja de ruta del desarrollo	8
-8.1 Hito 1	8
-8.2 Hito 2	8
-8.3 Hito 3	8
-8.4 Fecha de lanzamiento	8
+
 
 
 1.	Introducción
