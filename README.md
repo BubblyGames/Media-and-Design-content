@@ -1,16 +1,12 @@
 
 
-Get out of my swamp!
+### Get out of my swamp!
 
 
 
 Versión 0.1
 
 
-
-
-
-**Plantilla de GDD por Alberto Blanco, Cosmic Works Studios.***
 
 
 ## 1. Introducción
@@ -40,15 +36,15 @@ El modelo de monetización dependerá del desempeño económico del producto una
 
 - Optimista:
 
-![](https://lh3.googleusercontent.com/NI4MbKr_dGqFtFT48r4kJjj1igfExpHbUbahwgsHFaAjFI838OzuZM8pqw_1RTRlBE9p81fPNBohwCYPHWkAdyxoMkHNVfcig2Jz6M9-Igo9Guz1C42d5D-9rBTElIIDrbkBmRXN=s0)
+![](https://lh3.googleusercontent.com/NDok-owYDmq-nwNgygDbRXiC_imSoQfDmGG--ZBRdhj06D-Gra9gRHcpBK-UgUpN9wqcpNrYbVjkmJv8gvRJvbv_m8-sO3VaA3N30WNo2yMRoYWLCQ1BDHIchIngL1WyXdZhekcp=s0)
 
 - Normal:
 
-![](https://lh3.googleusercontent.com/aOk-buKt754IIYXInLqOrGXrr1lYslC9fQa9BAQXEsc2vnGasCvukH7mSiQprv3VeT55a4NRBYMIzkoAbU7_0-yhWRytPmCDVi1Vrp24HPpc0lICMtgwpnOa9lIc-jGcgyQ7Ob3_=s0)
+![](https://lh5.googleusercontent.com/yLeVvIKrbgzTepkci_sdpZwFOD4xHR-sfVYYtzEeKjQ6LuV9q3_To2p_3tYslYGGOk1IOkCN2wDLkIdDePRQswpZftIUGr7SQZNl6p8MkT2oxJ1U8Ec13ciUD6yZvwZeUkitSFc6=s0)
 
 - Pesimista:
 
-![](https://lh3.googleusercontent.com/4rGFsC5kDtVdVDREwom6GNtJviIL3Q0RioYjTyVZCVy4Nez1VVCr5WD_YOGYmisuOcTp2z1jnwnQ7hKlCK4J7slBTqJJ4sW7ue8V3YNFAZsd3OpGHFswm-17YoYblSH1xd_X8QnW=s0)
+![](https://lh6.googleusercontent.com/qtqYHgtjQsrfuDW2jzYMS6uORjEzjM1dH7jmhMES1awgUNY3AevEl5UOzc_10r92SlEo8O1f5x5UMYijkVQKC_15Q1pSoWWwYCZl0PBZe-dqzdw0vG6RoCIt5AK4DzaX2rLJqLVC=s0)
 
 
 ### 2.2 Tablas de productos y precios
