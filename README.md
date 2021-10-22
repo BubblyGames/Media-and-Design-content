@@ -57,7 +57,7 @@ Marta Vidal: Artista
 
 Alberto Garcia: Diseñador
 
-Daniel Marti,Jose Márquez y Adrian Ramirez: Programadores
+Daniel Marti, Jose Márquez y Adrian Ramirez: Programadores
 
 
 ### 3.2 Estimación temporal del desarrollo
@@ -151,7 +151,7 @@ Los niveles se conforman de grids y hay distintas variantes de las celdas. Los n
 \*TT: Ataques desde Tierra a objetivos Terrestres.
 TA: Ataques desde Tierra a objetivos Aéreos.
 
-### 4.6Enemigos
+### 4.6 Enemigos
 
 | **ENEMIGOS**(PONER NOMBRES) | VIDA | VELOCIDAD DE MOVIMIENTO | TIPO                 |
 | --------------------------- | ---- | ----------------------- | -------------------- |
