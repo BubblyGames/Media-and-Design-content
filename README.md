@@ -34,15 +34,9 @@ Se desarrolla para navegadores web y móviles y es para todos los públicos. El 
 
 El modelo de monetización dependerá del desempeño económico del producto una vez lanzado al mercado. Se han estructurado 3 posibles casos: ruta optimista, ruta normal, ruta pesimista.
 
-- Optimista:
-
 ![](https://lh3.googleusercontent.com/NDok-owYDmq-nwNgygDbRXiC_imSoQfDmGG--ZBRdhj06D-Gra9gRHcpBK-UgUpN9wqcpNrYbVjkmJv8gvRJvbv_m8-sO3VaA3N30WNo2yMRoYWLCQ1BDHIchIngL1WyXdZhekcp=s0)
 
-- Normal:
-
 ![](https://lh5.googleusercontent.com/yLeVvIKrbgzTepkci_sdpZwFOD4xHR-sfVYYtzEeKjQ6LuV9q3_To2p_3tYslYGGOk1IOkCN2wDLkIdDePRQswpZftIUGr7SQZNl6p8MkT2oxJ1U8Ec13ciUD6yZvwZeUkitSFc6=s0)
-
-- Pesimista:
 
 ![](https://lh6.googleusercontent.com/qtqYHgtjQsrfuDW2jzYMS6uORjEzjM1dH7jmhMES1awgUNY3AevEl5UOzc_10r92SlEo8O1f5x5UMYijkVQKC_15Q1pSoWWwYCZl0PBZe-dqzdw0vG6RoCIt5AK4DzaX2rLJqLVC=s0)
 
@@ -79,10 +73,18 @@ El tiempo de desarrollo para las distintas etapas del proyecto se estima en:
 
 ### 3.3 Costes asociados
 
-\*\*\*\*Todo lo que está en cursiva son apuntes o propuestas\*\*\*\*
+### 3.4 Campaña de publicidad
 
+La campaña de publicidad se va a desarrollar en 4 plataformas distintas: Twitter, Reddit, Itch.io y YouTube.
+La estrategia general consiste en captar a gente a través de Reddit y Twitter para redirigirles a Itch.io, donde encontrarán más información sobre el juego. Mientras YouTube actúa como plataforma dedicada a mostrar de manera extensa el juego.
+- Twitter: subir fotos de elementos de arte, videos gameplay y más elementos del juego, incluyendo en el mensaje un enlace a la página de Itch.io. Se aprovecharán hastags del mundo indie (#ScreenshotSaturday, #indiegame, #indiedev y #indiesp) para conseguir más alcance en el público adecuado.
+- Reddit: lo mismo que en Twitter, pero se subirán a subreddits del mundo indie para tener más alcance.
+- YouTube: subir versiones extendidas de los vídeos publicados en el resto de redes. Indicar tipo de contenido mostrado en el vídeo.
+- Itch.io: subir DevBlogs hablando del desarrollo del juego en cada etapa. Comentar los aspectos más relevantes de cada equipo.
 
-## 4. Mecánicas de Juego y Elementos de Juego_(Añadir esquemas o tablas para tener un acceso mucho más rápido a la información en caso de necesitarlo)_
+En el caso de las plataformas de Twitter, Reddit y YouTube se subirán elementos los días con más público en cada plataforma (sábados en el caso de Twitter). Para Itch.io se subirán los DevBlogs el último día de cada fase de desarrollo.
+
+## 4. Mecánicas de Juego y Elementos de Juego
 
 
 ### 4.1 Descripción detallada del concepto de juego
@@ -92,6 +94,7 @@ Es un tower defense 3D con vista isométrica en un mapa cúbico. El origen de lo
 
 ### 4.2 Descripción detallada de las mecánicas de juego
 
+![](https://lh4.googleusercontent.com/7_tib0ycPSkRPNOmPVR7lpDnccMY1CH9RyNUzCjInd67h-6ZX0qLFfUIJddRScMD8ORfV0BSEqDi8Iqpj8Wfii9Jr68iM_2h8t9bEcG8d3XK19vl0DOSLOA-FJglhf44LmBII0In=s1600)
 
 #### 4.2.1 Victoria y derrota
 
@@ -102,31 +105,29 @@ Para ganar la partida se ha de defender un número determinado de oleadas y con 
 
 El mapa tiene forma de cubo, con sus 6 caras siendo terreno jugable. Las caras visibles serán de 1 a 3, dependiendo de la rotación del cubo que elija el jugador. El cubo se puede rotar en cualquier momento de la partida menos en el menú de construcción.
 
-En el mapa hay tres tipos de casillas_(cuatro si al final añadimos la casilla económica)_: Casillas de camino, por las que los enemigos transitan y se pueden poner trampas; Casillas de terreno construible, donde se podrá poner cualquier tipo de torre; Y casillas obstáculo, en las que no puede haber camino ni estructuras.
+En el mapa hay tres tipos de casillas: Casillas de camino, por las que los enemigos transitan y se pueden poner trampas; Casillas de terreno construible, donde se podrá poner cualquier tipo de torre; Y casillas obstáculo, en las que no puede haber camino ni estructuras.
 
 
 #### 4.2.3 Economía
 
-El juego comienza con una cantidad determinada de monedas_(Moneda por decidir.)_para poner las torres iniciales. Una vez iniciada la partida, la fuente de ingresos será la derrota de los enemigos. El dinero conseguido se puede gastar en construir más defensas o mejorar las ya existentes._Podría haber una torre que genere recursos de manera pasiva, habría que decidir qué recurso sería y podría estar en sitios específicos del mapa, como casillas de recurso en el que solo se puede construir si tienes conexión directa._
+El juego comienza con una cantidad determinada de monedas para poner las torres iniciales. Una vez iniciada la partida, la fuente de ingresos será la derrota de los enemigos. El dinero conseguido se puede gastar en construir más defensas o mejorar las ya existentes.
 
 
-#### 4.2.4 Defensas y enemigos_(Añadir referencias del mismo documento al apartado de Torres y el apartado de Enemigos)_
+#### 4.2.4 Defensas y enemigos
 
-Existen dos tipos de defensas, las torres y las trampas. Las torres tienen vida, alcance, daño, velocidad de ataque y éstos pueden ser individuales o en área y tener efectos de estado sobre los enemigos. Solo se pueden construir adyacentes al camino de los enemigos u otra torre previamente construida._Algunas torres tienen bonificación de adyacencia (BETA?)_. Además, tienen dos niveles de mejoras para aumentar sus estadísticas. Luego están las trampas, las cuales se colocan en el camino del enemigo. Tienen daño, durabilidad y pueden tener efecto_(ralentizar)_.
+Existen dos tipos de defensas, las torres y las trampas. Las torres tienen vida, alcance, daño, velocidad de ataque y éstos pueden ser individuales o en área y tener efectos de estado sobre los enemigos. Solo se pueden construir adyacentes al camino de los enemigos u otra torre previamente construida. Además, tienen dos niveles de mejoras para aumentar sus estadísticas. Luego están las trampas, las cuales se colocan en el camino del enemigo. Tienen daño, durabilidad y pueden tener efecto.
 
-Por otro lado están los enemigos, con características de vida, velocidad de movimiento y opcionales como la capacidad de volar o dañar las torres. Aparecen por oleadas y aumentan en número conforme avanzas en la partida. Tienen diferentes roles en función de sus estadísticas: 
-- Base, unidad más común, estadísticas medias, carne de cañón
-- Tanque, una gran cantidad de vida y velocidad de movimiento reducida
-- Voladora, como su nombre indica, no van por el suelo ergo no son susceptibles a ciertos tipo de torres o trampas_y siguen una ruta diferente a la meta (POR VER)_ 
-- Horda, aparecen en mucha cantidad, con una velocidad de movimiento alta y vida bastante baja; 
-- _Por último, especialista, tiene habilidades únicas como dañar a las torres.
+Por otro lado están los enemigos, con características de vida, velocidad de movimiento y opcionales como la capacidad de volar o dañar las torres. Aparecen por oleadas y aumentan en número conforme avanzas en la partida. Tienen diferentes roles en función de sus estadísticas, siendo los roles unicad básica, ligera, tanque, horda, especialista y voladora, explicadas más adelante en el apartado Enemigos.
+
+
+![](https://lh6.googleusercontent.com/XyZfstCSw-DLWgamwydXli8vhxtgT-UwKJedln-d8n8b128AX2uwMAu_ZfEi14CkXv6f0j37Y27lFRzzMlJHlza6lMVwx9gM2rYwonhWBWuMDhGatPP_NvB05I83jCBoDTnug5R2=s1600)
+
+
 
 
 ### 4.3 Controles
 
-El jugador durante la partida tendrá dos tareas principales, vigilar el mapa para saber el estado de la partida y colocar defensas. Para vigilar el mapa podrá rotarlo con click (pulsar en el caso de móvil) y arrastrar_(Rotación en coordenadas globales y fijas para hacerlo bastante sencillo de usar)._Luego para poner las torres será exactamente el mismo input, click y arrastrar desde la tarjeta de la torre hasta la posición en la que desee ponerla.
-
-_Propuestas: doble click/tap en una cara para centrar la vista en ésta. Con un click/tap aparece la info de la defensa seleccionada a la izquierda de la pantalla_
+El jugador durante la partida tendrá dos tareas principales, vigilar el mapa para saber el estado de la partida y colocar defensas. Para vigilar el mapa podrá rotarlo con click (pulsar en el caso de móvil) y arrastrar. Luego para poner las torres será exactamente el mismo input, click y arrastrar desde la tarjeta de la torre hasta la posición en la que desee ponerla.
 
 
 ### 4.4 Niveles y misiones
@@ -136,37 +137,30 @@ El juego cuenta con 2 niveles por el momento. La misión en ambos niveles es def
 Los niveles se conforman de grids y hay distintas variantes de las celdas. Los niveles son semi procedurales: los niveles se crean mediante seed, pero a medida que se progresa su dificultad va aumentando.
 
 
-### 4.5 Objetos, armas y power ups
+### 4.5 Torres y trampas
 
-El jugador cuenta con 4 tipos de torres distintas:
+| **TORRES**     | ALCANCE   | DAÑO    | OBJETIVO          | VELOCIDAD DE ATAQUE | EFECTO                            |
+| -------------- | --------- | ------- | ----------------- | ------------------- | --------------------------------- |
+| TORRE PESADA   | Largo     | Elevado | ÁreaTT\*          | Lento               | \-                                |
+| TORRE BÁSICA   | Medio     | Medio   | IndividualTA-TT\* | Medio               | \-                                |
+| TORRE PSÍQUICA | Corto     | Bajo    | IndividualTT\*    | Medio               | El enemigo retrocede              |
+| TORRE ACUÁTICA | Medio     | Bajo    | ÁreaTA-TT\*       | Rápido              | Prioriza ataque a enemigos aéreos |
+| **TRAMPAS**    |           |         |                   |                     |                                   |
+| TRAMPA PANTANO | 1 Casilla | \-      | ÁreaTT\*          | \-                  | Ralentiza                         |
 
-- Torre pesada:
+\*TT: Ataques desde Tierra a objetivos Terrestres.
+TA: Ataques desde Tierra a objetivos Aéreos.
 
-  - Alcance: amplio
-  - Daño: elevado y en área
-  - Ritmo de disparo: lento
+### 4.6Enemigos
 
-- Torre básica:
-
-  - Alcance: medio
-  - Daño: medio-bajo, de manera individual
-  - Ritmo de disparo: alto
-  - Miscelánea: prioriza el ataque a enemigos aéreos
-
-- Torre elemental:
-
-  - Alcance: medio
-  - Daño: bajo, individual
-  - Ritmo de disparo: medio
-  - Miscelanea: los enemigos afectados por su ataque se dan la vuelta por un lapso de tiempo
-
-- Torre acuática:
-
-  - Alcance: medio
-  - Daño: medio, multiobjetivo
-  - Ritmo de disparo: rápido
-  - Miscelánea: ralentizan a los enemigos
-
+| **ENEMIGOS**(PONER NOMBRES) | VIDA | VELOCIDAD DE MOVIMIENTO | TIPO                 |
+| --------------------------- | ---- | ----------------------- | -------------------- |
+| NORMAL                      |      | Media                   | Terrestre - Normal   |
+| LIGERA                      |      | Rápida                  | Terrestre - Ligera   |
+| TANQUE                      |      | Lenta                   | Terrestre - Pesada   |
+| HORDA                       |      | Normal                  | Terrestre - Horda    |
+| ESPECIALISTA                |      | Lenta                   | Terrestre - Especial |
+| VOLADORA                    |      | Media                   | Aérea - Normal       |  
 
 ## 5. Trasfondo
 
