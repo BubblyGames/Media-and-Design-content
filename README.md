@@ -220,31 +220,29 @@ Para la interfaz se cuentan con 7 ventanas:
 
 - Menú principal:
 
-![](https://lh3.googleusercontent.com/8DyA5nZYCmOq9IyMkc0QNyziFNgI5Fu1vDnfRW31Su6ZKStqzqjhksMMSgsJuFNoA3HHG0P4TrU_luv4K-fSWCDI7wZ4PBIHg0xjWR74c4I6BWAwb5-MvVzyVWYgmr8T6tFpzYi1=s1600)
+
 
 - Ajustes:
 
-![](https://lh5.googleusercontent.com/jQBCQuwGGDxjI3n7Z3dejkFpGGlxifr7-jOwsQ7NeoECHqDtEzJ2cjoCuS1JLYyO6_t3tmOdopfqTQxi3HMBNlg_NuYJgIl4JSLOauaotZLU1SUHkJ-fb8fpVgqWzD03OXGr1xuS=s1600)
+
 
 - Tutoriales:
 
-![](https://lh6.googleusercontent.com/a7abhlp-7Qc_CL6pCSn9wXS-7kUR4EtghRvnwrBllO7whOcr4JTkvRAS1eM1SCRzKxi8eHDUVckusJnsnmfbQYF4xkUk3j85o0Rdj46JfrEpLBgNMjW5pYmy_ZqxfaYi_LuhPKuk=s1600)
+
 
 - Selector de nivel:
 
-![](https://lh3.googleusercontent.com/fG3NhGr5zN9IJi1HtinuR8A4VzU3Pj0TuKcHGoxLPQWfrVG7EI1jrTgLZXHj7wKX_09b-dO3S-4xjb-RdsJXs9jkYtDODSu2_ywA3l31ywENDXln3auX-BspehyWxFPFdWHweiFQ=s1600)
+
 
 - Menú de pausa:
 
-![](https://lh3.googleusercontent.com/2_igX8cQF9lt8PxyNucxLWL5bLjySZtBgRpaajqGJPLId8NPYzH_sYkarJs6mER5PpucWFY9GFC9RB6Yf5bTBeJ9ZDZXD4-UWZ7IZA12G0Guf64VQ10Fkb8K80RG_YuFbe5KaHaT=s1600)
 
 - Final de nivel:
 
-![](https://lh6.googleusercontent.com/Sx98TllL3yJHSEKKO0xGQUF0bz7iADib0Z8CZ30JXwS4QcGsGk-ZidYyupZQg1sGPH6PoAfQ50EgK_7RyE3SN6mpemzHWQJGtuPAOZZhWkBpGL0vgQwlPh3BlQdwQcsnnL9Z7B_9=s1600)
 
 - Interfaz de juego:
 
-![](https://lh5.googleusercontent.com/OYOL7HiaJa0aVZ0MMOIAiWejWs3Ovq5pZzuLNaFdp4H4-_FMxwrrtkyeF9r0RohrdURYUOGZ7jRNWiz-9NB8Na9WGcumFqeHRDxljCHnifMb0bglvDrWNhfnQcP6M27DOXiot8N6=s1600)
+
 
 ### 7.2 Diagrama de flujo
 
