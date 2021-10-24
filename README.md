@@ -16,7 +16,7 @@ Es un Tower Defense en el que el jugador debe defender su estanque de la invasi√
 
 # Redes sociales
 
-Twitter: https://twitter.com/bubblygames_
-YouTube: https://www.youtube.com/channel/UCn3DyatQ1_tY6f4hYlObRjA
-Itch.io: https://bubblygames.itch.io/
-Reddit: https://www.reddit.com/user/BubblyGames_Studio
+- Twitter: https://twitter.com/bubblygames_
+- YouTube: https://www.youtube.com/channel/UCn3DyatQ1_tY6f4hYlObRjA
+- Itch.io: https://bubblygames.itch.io/
+- Reddit: https://www.reddit.com/user/BubblyGames_Studio
