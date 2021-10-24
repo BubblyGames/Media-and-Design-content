@@ -6,6 +6,6 @@ Portfolio created with HTML, CSS y JS, in which we are going to show the progres
 - Daniel Martí Casanova
 - Marta Vidal
 - Alberto García García
-- José
-- Adrían
+- Jose Márquez
+- Adrían Ramírez
 - Gonzalo Lobo González
