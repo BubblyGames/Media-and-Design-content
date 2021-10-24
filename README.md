@@ -7,12 +7,20 @@ Es un Tower Defense en el que el jugador debe defender su estanque de la invasi�
 
 # Miembros del equipo
 
-- Daniel Martí Casanova
-- Marta Vidal
-- Alberto García García
+## Equipo de programación
+- Daniel Martí 
 - Jose Márquez
-- Adrían Ramírez
-- Gonzalo Lobo González
+- Adrián Ramírez
+
+## Equipo de diseño
+- Alberto García
+- Gonzalo Lobo
+
+## Equipo de arte
+- Marta Vidal
+
+## Equipo de gestión y redes sociales
+- Gonzalo Lobo
 
 # Redes sociales
 
