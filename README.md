@@ -40,6 +40,10 @@ El modelo de monetización dependerá del desempeño económico del producto una
 
 ![](https://lh6.googleusercontent.com/qtqYHgtjQsrfuDW2jzYMS6uORjEzjM1dH7jmhMES1awgUNY3AevEl5UOzc_10r92SlEo8O1f5x5UMYijkVQKC_15Q1pSoWWwYCZl0PBZe-dqzdw0vG6RoCIt5AK4DzaX2rLJqLVC=s0)
 
+Nuestro cliente se trata de una persona con una fuerte presencia del arte en su vida. Es una persona sencilla, amable, dulce y optimista, la cual quiere o la gustaría poder dedicarse al arte y vivir de ello, siendo reconocida por más gente del gremio aunque para ello debe competir contra gente con talento en una situación laboral un tanto delicada.
+
+![nuestroMapa](https://user-images.githubusercontent.com/56488179/138941794-d059db82-28a3-4edf-8668-2a979de50dbb.png)
+
 
 ### 2.2 Tablas de productos y precios
 
@@ -78,7 +82,7 @@ El tiempo de desarrollo para las distintas etapas del proyecto se estima en:
 La campaña de publicidad se va a desarrollar en 4 plataformas distintas: Twitter, Reddit, Itch.io y YouTube.
 La estrategia general consiste en captar a gente a través de Reddit y Twitter para redirigirles a Itch.io, donde encontrarán más información sobre el juego. Mientras YouTube actúa como plataforma dedicada a mostrar de manera extensa el juego.
 - Twitter: subir fotos de elementos de arte, videos gameplay y más elementos del juego, incluyendo en el mensaje un enlace a la página de Itch.io. Se aprovecharán hastags del mundo indie (#ScreenshotSaturday, #indiegame, #indiedev y #indiesp) para conseguir más alcance en el público adecuado.
-- Reddit: lo mismo que en Twitter, pero se subirán a subreddits del mundo indie para tener más alcance. En este red se subirán contenidos a r/IndieGaming y a r/indiegames.
+- Reddit: lo mismo que en Twitter, pero se subirán a subreddits del mundo indie para tener más alcance. En este caso se subirán contenidos a r/IndieGaming y a r/indiegames.
 - YouTube: subir versiones extendidas de los vídeos publicados en el resto de redes. Indicar tipo de contenido mostrado en el vídeo.
 - Itch.io: subir DevBlogs hablando del desarrollo del juego en cada etapa. Comentar los aspectos más relevantes de cada equipo.
 
@@ -143,8 +147,8 @@ Los niveles se conforman de grids y hay distintas variantes de las celdas. Los n
 | -------------- | --------- | ------- | ----------------- | ------------------- | --------------------------------- |
 | TORRE PESADA   | Largo     | Elevado | ÁreaTT\*          | Lento               | \-                                |
 | TORRE BÁSICA   | Medio     | Medio   | IndividualTA-TT\* | Medio               | \-                                |
-| TORRE PSÍQUICA | Corto     | Bajo    | IndividualTT\*    | Medio               | El enemigo retrocede              |
-| TORRE ACUÁTICA | Medio     | Bajo    | ÁreaTA-TT\*       | Rápido              | Prioriza ataque a enemigos aéreos |
+| TORRE PSÍQUICA | Corto     | Bajo    | IndividualTT\*    | Medio               | El enemigo se ralentiza           |
+| TORRE MORTERO  | Medio     | Bajo    | ÁreaTA-TT\*       | Rápido              | Prioriza ataque a enemigos aéreos |
 | **TRAMPAS**    |           |         |                   |                     |                                   |
 | TRAMPA PANTANO | 1 Casilla | \-      | ÁreaTT\*          | \-                  | Ralentiza                         |
 
@@ -158,7 +162,7 @@ TA: Ataques desde Tierra a objetivos Aéreos.
 | NORMAL                      |      | Media                   | Terrestre - Normal   |
 | LIGERA                      |      | Rápida                  | Terrestre - Ligera   |
 | TANQUE                      |      | Lenta                   | Terrestre - Pesada   |
-| HORDA                       |      | Normal                  | Terrestre - Horda    |
+| HORDA                       |      | Media                   | Terrestre - Horda    |
 | ESPECIALISTA                |      | Lenta                   | Terrestre - Especial |
 | VOLADORA                    |      | Media                   | Aérea - Normal       |  
 
@@ -248,6 +252,13 @@ Para la interfaz se cuentan con 7 ventanas:
 
 ### 7.2 Diagrama de flujo
 
+Flujo de escenas:
+
+![](https://lh6.googleusercontent.com/7k6M4w1ZdGuKuBK72xem0Uu5PHNoBZPJjpaYxPJgbp3hJ1ydfIefFEy0RCkq3md5ElrEPwxL41SNHyZbHJ82DnDf-CXiI_CyJ198rYmyd8uAWpHVXEuaZW8tnHJZfTWVvFW_Q90J=s1600)
+
+Flujo de juego:
+
+![](https://lh3.googleusercontent.com/aF1nWLFmWOgguDnGZoJvcOlg-Rg5idqPTJ36BbybrI7znmQiQz3duVFWYjOZu0G9ywJHTiWaXSx0U-r1mU3JT1imTOPqgxp3-cy9zKN_-aYHIY8eDtvKcv5eABgkfKF-SN-zxnpM=s1600)
 
 ## 
 
@@ -257,11 +268,11 @@ Para la interfaz se cuentan con 7 ventanas:
 
 ### 8.1 Hito 1: Alfa
 
-- Motor Voxel que genere de manera procedural el cubo, los caminos y los obstáculos.
-- Funcionalidades básicas de juego (IA, vida y ataque).
-- Juego responsive.
-- Torres y enemigos definidos, con concepts y algún modelo de ellos.
-- Campaña de marketing iniciada (redes sociales preparadas).
+- Motor Voxel que genere de manera procedural el cubo, los caminos y los obstáculos:
+- Funcionalidades básicas de juego (IA, vida y ataque):
+- Juego responsive: 18 de Octubre de 2021.
+- Torres y enemigos definidos, con concepts y algún modelo de ellos:
+- Campaña de marketing iniciada (redes sociales preparadas): 11 de Octubre de 2021
 
 
 ### 8.2 Hito 2: Beta
@@ -271,5 +282,3 @@ Para la interfaz se cuentan con 7 ventanas:
 
 
 ### 8.4 Fecha de lanzamiento
-
-  
