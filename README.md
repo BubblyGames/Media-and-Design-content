@@ -201,17 +201,17 @@ Hay 3 niveles jugables y se han pensado en 3 entornos o biomas: pantano, nieve y
 ## 
 
 
-## 6.Arte
+## 6. Arte
 
 
-### 6.1Estética general del juego
+### 6.1 Estética general del juego
 
 Los gráficos del juego serían principalmente 3D, de estética y técnica Voxel Art, tanto para el escenario como para la representación física de defensas y enemigos. Por otro lado, todo lo relacionado con la interfaz, el HUD y otros elementos varios (cartas de personajes, información adicional, etc) serán en 2D.
 
 Con todo, la estética general del juego estará basada en el minimalismo, con colores planos y suaves, es decir, no muy saturados y con alta luminosidad.
 
 
-### 6.2Apartado visual
+### 6.2 Apartado visual
 
 Siguiendo en todo momento la línea estética general del juego, se diferenciarán diversos elementos del apartado visual:
 
@@ -225,21 +225,21 @@ Así pues, en una primera instancia, se limitan los colores del escenario jugabl
 
 Se planea incluir diversos biomas u escenarios jugables, cada uno de ellos basado en una paleta de colores diferenciada;
 
-BiomaPantano:
+Bioma Pantano:
 
 ![](https://lh4.googleusercontent.com/TXgQWhpVlt83etDjwyYZxmVOVPrlITub35fW6DAcFtA7LPzNhg3M7nMgYrNafSEyJ20paOBGp5wyTFgmkCkk-GYfFl1u3ooGeAzqImXpHy3aheO0lrHU4wik3ZZYzqpsGvj-WL_Z)
 
 ![](https://lh5.googleusercontent.com/rK1Dd5JWwy1GxaCoPw6uzcGak2qy_9cbq-xHiRPymrxKhMh4TFVeFv0a6Zl4Uu91OFZW7Kf2yeLaik4JcB2CMBWRmC97kNLvhFVIq-XcEEPfvwAeC9l9Nj45nsOXgikCjeNt13u7)
 
 
-BiomaCiudad:
+Bioma Ciudad:
 
 ![](https://lh6.googleusercontent.com/Z41MUXJ7gsGdB0-wqKRionSkHEM7b0xHw2xt5lHWmSbZVd8jw5R1l-QMfFdtzLF-Hmd7l831v-c1z9vijDtHBnatru3Xj26GpkPvsK-eWeHLULY_-Ki46UXsw2BF9tqVgKnxPi4j)
 
 ![](https://lh6.googleusercontent.com/ASA0QnjXO-dbM1D6dp4Rvd5GMp41v-_T6zwML90An7MpX2yYpfsXZUPi5RbpV2A0RamsDm2j-jmorlBmVXc9D14YAohFmSMxr7kL_hMfD1FGYAFQm1TlfeZ-4VzBPz0aG9ZEjoZT)
 
 
-BiomaMontaña:
+Bioma Montaña:
 
 ![](https://lh4.googleusercontent.com/BK7V2ioEAjoyQnGm7btwQTIIZejfD8ZpiHLmawmiaaD-DrBs647Yx6qjIlPKCiOrht3NV9W28lh3p_V5Z28jlGwWc9kJnl_4ULSFMy1FiRs9qizqyaVCPhjqrk78uTqrp3hNrKuE)
 
@@ -271,10 +271,10 @@ Ejemplo, torreta pesada:
 ![](https://lh4.googleusercontent.com/Dzd7nWF57Rs77VOYupw-UyEDxH8ne5-6BegqIbMsGoOlOjXHHTOmph_U8cBsECglTBBoB5a21ZOJfKTo5pBb2WBmR24A_NquxksyRXWxeH6uMW1kYXeZau0la7q7CbZvrNM9ieAf)
 
 
-### 6.3Música
+### 6.3 Música
 
 
-### 6.4Ambiente sonoro
+### 6.4 Ambiente sonoro
 
 
 ## 
