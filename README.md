@@ -1,6 +1,6 @@
 
 
-### Get Out Of My Swamp!
+### Get Out Of My Pond!
 
 
 
@@ -290,6 +290,3 @@ Flujo de juego:
 
 
 ### 8.4 Fecha de lanzamiento
-
-
-  
