@@ -307,10 +307,17 @@ Ejemplo, torreta pesada:
 
 ### 6.3 Música
 
+El juego cuenta con una sola canción propia la cual se reproduce tanto en los menúes como durante la partida.
 
 ### 6.4 Ambiente sonoro
 
+El juego cuenta con efectos de sonido para la construcción de las torres y sus mejoras, para la muerte de las ranas enemigas y para cuando estas llegan a tu estanque, inflingiendote daño, todas cortesía de [Zapsplat](https://www.zapsplat.com/)
 
+El efecto de sonido de la construcción de las torres y de la mejora de estas es la misma. Es el sonido de unos ladrillos infantiles agitándose en una bolsa.
+El efecto de sonido de la muerte de las ranas consiste en el croar de una rana.
+El efecto de sonido cuando los enemigos llegan a tu estanque varía entre 3 efectos de sonido distintos: 
+- La agitación de una loción de bebé en un bote
+- 2 chapoteos distintos en el agua
 
 ## 
 
@@ -362,6 +369,16 @@ Flujo de juego:
 
 ## 
 
+## 9. Post-Mortems
+
+
+### 9.1 Post-Mortem de la etapa Alfa
+
+### 9.2 Post-Mortem de la etapa Beta
+
+### 9.3 Post-Mortem de la etapa Gold
+
+##
 
 ## 8. Hoja de ruta del desarrollo
 
@@ -379,17 +396,23 @@ Flujo de juego:
 
 - Interfaz implementada con estructura final y arte de GUI final:
 - Tutorial introductorio en el que se expliquen las mecánicas básicas:
-- Balanceo de las estadisticas de enemigos y torres para hacer el juego divertido y justo:
-- Agregar estanque desde el que spawnean los enemigos:
-- Ajustar la generación de caminos:
+- Balanceo de las estadisticas de enemigos y torres para hacer el juego divertido y justo: 15/11/2021
 - Crear y meter en el juego los 6 modelos de enemigo y los 5 modelos de torre/defensa:
-- Nueva mecánica característica
+- Nueva mecánica característica:
 - Añadir offset para la colocación de torres:
+- Arreglar proporciones de las torres en el cubo:
+- Dirigir correctamente la barra de vida de los enemigos hacia la camara del jugador: 16/11/2021
+- Portfolio actualizado en su nueva versión: 
 
 ### 8.3 Hito 3: Gold
 
+- Pulir la generación de caminos en el cubo:
+- Añadir estanque en el spawn de los enemigos:
+- Añadir animaciones a las torres:
+- Añadir efectos de partículas al disparo de la torre que ralentiza, a la entrada de los enemigos en el estanque y al caminar de los enemigos:
+- Añadir efectos de sonido a la muerte de los enemigos, a la llegada de estos al estanque del jugador y a la construcción y mejora de las torres:
 
 ### 8.4 Fecha de lanzamiento
 
-
+- Campaña de marketing en redes sociales en el que se hable de los distintos elementos del juego:
   
