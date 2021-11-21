@@ -1,7 +1,7 @@
 
 
-### Pond Platoon
-### by BubblyGames Studio
+# Pond Platoon
+## by BubblyGames Studio
 
 
 
@@ -137,8 +137,6 @@ Por otro lado están los enemigos, con características de vida y velocidad de m
 ![](https://lh6.googleusercontent.com/XyZfstCSw-DLWgamwydXli8vhxtgT-UwKJedln-d8n8b128AX2uwMAu_ZfEi14CkXv6f0j37Y27lFRzzMlJHlza6lMVwx9gM2rYwonhWBWuMDhGatPP_NvB05I83jCBoDTnug5R2=s1600)
 
 
-
-
 ### 4.3 Controles
 
 El jugador durante la partida tendrá dos tareas principales, vigilar el mapa para saber el estado de la partida y colocar defensas. Para vigilar el mapa podrá rotarlo con click (pulsar en el caso de móvil) y arrastrar. Luego para poner las torres será exactamente el mismo input, click y arrastrar desde la tarjeta de la torre hasta la posición en la que desee ponerla.
@@ -150,55 +148,106 @@ El juego cuenta con cinco mapas, diferenciados a nivel visual y en la generació
 
 Los niveles son semi procedimentales y se crean mediante una semilla.
 
+**Pantano:**
+
+Cantidad de enemigos por ronda:
+| **ENEMIGOS**                | RONDA 1 | RONDA 2 | RONDA 3 |
+| --------------------------- | ------- | ------- |---------|
+| NORMAL                      |  20     |   25    |   63    | 
+| TANQUE                      |  1      |   4     |   36    |
+| HORDA                       |  5      |   40    |   105   |
+| AÉREO                       |  3      |   5     |   31    |
+
+**Tundra:**
+
+Cantidad de enemigos por ronda:
+| **ENEMIGOS**                | RONDA 1 | RONDA 2 | RONDA 3 | RONDA 4 | RONDA 5 |
+| --------------------------- | ------- | ------- |-------- | ------- | ------- |
+| NORMAL                      |  16     |   23    |   25    |   25    |   45    |
+| TANQUE                      |  9      |   12    |   15    |   15    |   35    |
+| HORDA                       |  25     |   35    |   40    |   40    |   40    |
+| AÉREO                       |  5      |   8     |   10    |   10    |   30    |
+
+**Otoño:**
+
+Cantidad de enemigos por ronda: 
+| **ENEMIGOS**                | RONDA 1 | RONDA 2 | RONDA 3 | 
+| --------------------------- | ------- | ------- |-------- |
+| NORMAL                      |  10     |   15    |   40    |
+| TANQUE                      |  2      |   10    |   15    |
+| HORDA                       |  10     |   20    |   40    |
+| AÉREO                       |  1      |   6     |   35    |
+
+**Cerezo:**
+
+Cantidad de enemigos por ronda: 
+| **ENEMIGOS**                | RONDA 1 | RONDA 2 | RONDA 3 | RONDA 4 |
+| --------------------------- | ------- | ------- |-------- | ------- |
+| NORMAL                      |   15    |   21    |   51    |   48    |
+| TANQUE                      |   3     |   6     |   18    |   26    |
+| HORDA                       |   15    |   39    |   60    |   45    |
+| AÉREO                       |   1     |   9     |   33    |   33    |
+
+**Nevado:**
+
+Cantidad de enemigos por ronda: 
+| **ENEMIGOS**                | RONDA 1 | RONDA 2 | RONDA 3 | RONDA 4 |
+| --------------------------- | ------- | ------- |-------- | ------- |
+| NORMAL                      |   60    |   40    |   80    |   80    |
+| TANQUE                      |   4     |   16    |   40    |   60    |
+| HORDA                       |   30    |   40    |   80    |   120   |
+| AÉREO                       |   4     |   16    |   40    |   40    |
+
 
 ### 4.5 Torres y trampas
 
-| **TORRES**     | ALCANCE      | DAÑO           | OBJETIVO          | VELOCIDAD DE ATAQUE | EFECTO                            | COSTE  |
-| -------------- | ---------    | -------------- | ----------------- | ------------------- | --------------------------------- |--------|
-| TORRE PESADA   | Largo (7 ud) | Elevado (35 ud)| Proyectil ÁreaTT\*| Lento (0.1 ud)      | \-                                | 300    |
-| TORRE BÁSICA   | Medio (5 ud) | Medio (10 ud)  | IndividualTA-TT\* | Medio (1 ud)        | \-                                | 125    |
-| TORRE PSÍQUICA | Corto (3 ud) | Bajo (7 ud)    | Área TT\*         | Medio (1 ud)        | El enemigo se ralentiza           | 200    |
-| TORRE MONTAÑA  | Medio (x ud) | Bajo (x ud)    | IndividualTA-TT*  | Rápido (x ud)       | Prioriza ataque a enemigos aéreos |        |
-| TORRE ECONÓMICA| Nada         | Ninguno        | Ninguno           | Sin ataque          | Genera ingresos de forma pasiva   | 400    |
-| **TRAMPAS**    |              |                |                   |                     |                                   |        |
-| TRAMPA PANTANO | 1 Casilla    | \-             | ÁreaTT\*          | \-                  | Ralentiza                         | X      |
+| **TORRES**     | ALCANCE      | DAÑO           | OBJETIVO          | VELOCIDAD DE ATAQUE | DPS | EFECTO                           | COSTE  |
+| -------------- | ---------    | -------------- | ----------------- | ------------------- | --- | -------------------------------- |--------|
+| TORRE PESADA   | Largo (6 ud) | Elevado (30 ud)| Proy Área TT\*    | Lento (0.1 ud)      |  6  | \-                               | 300    |
+| TORRE BÁSICA   | Medio (5 ud) | Medio (14 ud)  | Individual TT\*   | Medio (2 ud)        | 28  | \-                               | 125    |
+| TORRE PSÍQUICA | Corto (4 ud) | Bajo (3 ud)    | Área TT\*         | Lento (0.5 ud)      | 0.9 | Ralentiza al enemigo             | 200    |
+| TORRE MONTAÑA  | Largo (7 ud) | Bajo (3 ud)    | Individual TA\*   | Rápido (5 ud)       | 15  | \-                               | 175    |
+| TORRE ECONÓMICA| Nada         | Ninguno        | Ninguno           | Sin ataque          |     | Genera ingresos de forma pasiva  | 250    |
+| **TRAMPAS**    |              |                |                   |                     |     |                                  |        |
+| TRAMPA PANTANO | Corto (3 ud) | Elevado (40 ud)| Área TT\*         | De un solo uso      |     | Ralentiza al enemigo             | 50     |
 
 Cada defensa del jugador se puede mejorar, por separado, hasta tres veces, aumentando con estas mejoras las estadísticas de dicha defensa y haciéndola más eficaz en combate.
 
 Nivel 1:
-| **TORRES**     | ALCANCE      | DAÑO           | OBJETIVO          | VELOCIDAD DE ATAQUE | EFECTO                            | COSTE  |
-| -------------- | ---------    | -------------- | ----------------- | ------------------- | --------------------------------- |--------|
-| TORRE PESADA   | Largo (7 ud) | Elevado (70 ud)| Proyectil ÁreaTT\*| Lento (0.1 ud)      | \-                                | 150    |
-| TORRE BÁSICA   | Medio (5 ud) | Medio (12 ud)  | IndividualTA-TT\* | Medio (1.5 ud)      | \-                                | 50     |
-| TORRE PSÍQUICA | Corto (4 ud) | Bajo (8 ud)    | ÁreaTT\*          | Medio (1 ud)        | El enemigo se ralentiza           | 100    |
-| TORRE MONTAÑA  | Medio (x ud) | Bajo (x ud)    | IndividualTA-TT*  | Rápido (x ud)       | Prioriza ataque a enemigos aéreos |        |
+| **TORRES**     | ALCANCE      | DAÑO           | OBJETIVO          | VELOCIDAD DE ATAQUE | DPS | EFECTO                           | COSTE  |
+| -------------- | ---------    | -------------- | ----------------- | ------------------- | --- | -------------------------------- |--------|
+| TORRE PESADA   | Largo (6 ud) | Elevado (35 ud)| Proy Área TT\*    | Lento (0.2 ud)      | 7   | \-                               | 150    |
+| TORRE BÁSICA   | Medio (5 ud) | Medio (16 ud)  | Individual TT\*   | Medio (2 ud)        | 32  | \-                               | 50     |
+| TORRE PSÍQUICA | Corto (4 ud) | Bajo (5 ud)    | Área TT\*         | Lento (0.3 ud)      | 1.5 | Ralentiza al enemigo             | 100    |
+| TORRE MONTAÑA  | Largo (7 ud) | Bajo (4 ud)    | Individual TA\*   | Rápido (5 ud)       | 20  | \-                               | 75     |
 
 Nivel 2:
-| **TORRES**     | ALCANCE      | DAÑO           | OBJETIVO          | VELOCIDAD DE ATAQUE | EFECTO                            | COSTE  |
-| -------------- | ---------    | -------------- | ----------------- | ------------------- | --------------------------------- |--------|
-| TORRE PESADA   | Largo (12 ud)| Elevado (70 ud)| Proyectil ÁreaTT\*| Lento (0.1 ud)      | \-                                | 200    |
-| TORRE BÁSICA   | Largo (8 ud) | Medio (14 ud)  | IndividualTA-TT\* | Medio (1.5 ud)      | \-                                | 100    |
-| TORRE PSÍQUICA | Medio (5 ud) | Medio (9 ud)   | ÁreaTT\*          | Medio (1 ud)        | El enemigo se ralentiza           | 150    |
-| TORRE MONTAÑA  | Medio (x ud) | Bajo (x ud)    | IndividualTA-TT*  | Rápido (x ud)       | Prioriza ataque a enemigos aéreos |        |
+| **TORRES**     | ALCANCE      | DAÑO           | OBJETIVO          | VELOCIDAD DE ATAQUE | DPS | EFECTO                            | COSTE  |
+| -------------- | ---------    | -------------- | ----------------- | ------------------- | --- | --------------------------------- |--------|
+| TORRE PESADA   | Largo (8 ud) | Elevado (35 ud)| Proy Área TT\*    | Lento (0.2 ud)      |  7  | \-                                | 200    |
+| TORRE BÁSICA   | Largo (6 ud) | Medio (18 ud)  | Individual TT\*   | Medio (2 ud)        |  36 | \-                                | 100    |
+| TORRE PSÍQUICA | Medio (5 ud) | Bajo (6 ud)    | Área TT\*         | Lento (0.3 ud)      | 1.8 | Ralentiza al enemigo              | 150    |
+| TORRE MONTAÑA  | Largo (8 ud) | Bajo (4 ud)    | Individual TA\*   | Rápido (5 ud)       |  20 | \-                                | 125    |
 
 Nivel 3:
-| **TORRES**     | ALCANCE      | DAÑO           | OBJETIVO          | VELOCIDAD DE ATAQUE | EFECTO                            | COSTE  |
-| -------------- | ---------    | -------------- | ----------------- | ------------------- | --------------------------------- |--------|
-| TORRE PESADA   | Largo (12 ud)| Elevado (70 ud)| Proyectil ÁreaTT\*| Lento (0.2 ud)      | \-                                | 300    |
-| TORRE BÁSICA   | Largo (10 ud)| Medio (14 ud)  | IndividualTA-TT\* | Rápido (1.75 ud)    | \-                                | 150    |
-| TORRE PSÍQUICA | Medio (5 ud) | Medio (9 ud)   | ÁreaTT\*          | Medio (1.5 ud)      | El enemigo se ralentiza           | 200    |
-| TORRE MONTAÑA  | Medio (x ud) | Bajo (x ud)    | IndividualTA-TT*  | Rápido (x ud)       | Prioriza ataque a enemigos aéreos |        |
+| **TORRES**     | ALCANCE      | DAÑO           | OBJETIVO          | VELOCIDAD DE ATAQUE | DPS  | EFECTO                            | COSTE  |
+| -------------- | ---------    | -------------- | ----------------- | ------------------- | ---- | --------------------------------- |--------|
+| TORRE PESADA   | Largo (8 ud) | Elevado (35 ud)| Proy Área TT\*    | Lento (0.3 ud)      | 10.5 | \-                                | 300    |
+| TORRE BÁSICA   | Largo (6 ud) | Medio (18 ud)  | Individual TT\*   | Medio (2.2 ud)      | 39.6 | \-                                | 150    |
+| TORRE PSÍQUICA | Medio (5 ud) | Bajo (6 ud)    | Área TT\*         | Lento (0.5 ud)      | 3    | Ralentiza al enemigo              | 200    |
+| TORRE MONTAÑA  | Largo (8 ud) | Bajo (5 ud)    | Individual TA\*   | Rápido (7 ud)       | 35   | \-                                | 200    |
 
 \*TT: Ataques desde Tierra a objetivos Terrestres.
-TA: Ataques desde Tierra a objetivos Aéreos.
+\*TA: Ataques desde Tierra a objetivos Aéreos.
 
 ### 4.6 Enemigos
 
-| **ENEMIGOS**                | VIDA | VELOCIDAD DE MOVIMIENTO | TIPO                 |
-| --------------------------- | ---- | ----------------------- | -------------------- |
-| NORMAL                      |  40  | Media                   | Terrestre - Normal   |
-| TANQUE                      | 250  | Lenta                   | Terrestre - Pesada   |
-| HORDA                       |  25  | Media                   | Terrestre - Horda    | 
+| **ENEMIGOS**                | VIDA | VELOCIDAD DE MOVIMIENTO | TIPO                 | RECOMPENSA |
+| --------------------------- | ---- | ----------------------- | -------------------- | ---------- |
+| NORMAL                      |  40  | Media (2 ud)            | Terrestre - Normal   |     8      |
+| TANQUE                      |  250 | Lenta (1.5 ud)          | Terrestre - Pesada   |     20     |
+| HORDA                       |  25  | Rápida (4 ud)           | Terrestre - Horda    |     3      |
+| AÉREO                       |  25  | Media (3 ud)            | Aérea - Normal       |     15     |
 
 
 ## 5. Trasfondo
@@ -221,9 +270,13 @@ Hay dos personajes característicos en el juego: el líder de las ranas limpias 
 Hay cinco niveles jugables, cada uno con su estética única: Pantano, Tundra, Otoño, Cerezo y Nevado.
 
 - Primer mapa: Pantano. El estanque de las ranas limpias es un estanque limpio, vívido y con nenúfares mientras que el estanque de las ranas sucias es oscuro, con lodo.
+
 - Segundo mapa: Tundra. Antes de llegar a las frías tierras del ártico, las ranas se refugian en un charquito de aguas termales, a donde acuden grandes ranas cubiertas de fango. 
+
 - Tercer mapa: Otoño. Con la caída de las hojas y las temperaturas, el suelo se tiñe de marrón y nuestras ranitas buscan el calor grupal en un pequeño estanque. 
+
 - Cuarto mapa: Cerezo. Los cerezos anuncian la llegada de la primavera con su lluvia de pétalos rosas, dando al campo un color jovial y acompañando a una plácida mañana soleada.
+
 - Quinto mapa: Nevado. Las huellas quedan marcadas en la nieve ante el paso de nuestras protagonistas, que se dirigen a una calentita charca. 
 
 
@@ -252,6 +305,10 @@ Así pues, en una primera instancia, se limitan los colores del escenario jugabl
 Los biomas presentes son, como se han explicado antes, los siguientes:
 
 **Bioma Pantano:**
+
+![](https://user-images.githubusercontent.com/56488179/142777057-986df292-81c3-43f9-9842-efd53bd7c35f.png)
+
+![](https://user-images.githubusercontent.com/56488179/142777051-af2f45b9-2ccb-4790-a5c1-a07466fc1b29.png)
 
 **Bioma Otoño:**
 
@@ -295,7 +352,7 @@ La representación en el escenario tanto de las defensas como de los enemigos so
 
 ![VenenosaRender](https://user-images.githubusercontent.com/56488179/142732066-018798f5-6ca5-4c18-b5a4-cd1715ed443a.png)
 
-- Torre montañosa:
+- Torre montaña:
 
 ![AereaRender](https://user-images.githubusercontent.com/56488179/142732075-a73a68d8-8cca-4110-a8de-09a1d2f4313d.png)
 
@@ -321,6 +378,10 @@ La representación en el escenario tanto de las defensas como de los enemigos so
 
 ![HordaRender](https://user-images.githubusercontent.com/56488179/142732505-ff361669-72d7-46aa-8af5-75a9d16d0158.png)
 
+- Enemigo volador:
+
+![AereoRender](https://user-images.githubusercontent.com/56488179/142773898-0e065091-fb06-48d8-9853-527115f4e0dc.png)
+
 #### Iconos
 
 A su vez, la representación de las estadísticas de las torres se realiza mediante cartas o pantallas de información en gráficos 2D acorde a las descripciones de la estética general y al resto de elementos 2D.
@@ -337,7 +398,7 @@ A su vez, la representación de las estadísticas de las torres se realiza media
 
 ![Psíquica](https://user-images.githubusercontent.com/56488179/142732258-3350a5d7-4d75-4494-be7d-75a4ecb69431.png)
 
-- Torre aérea:
+- Torre montaña:
 
 ![Aerea](https://user-images.githubusercontent.com/56488179/142732217-6d9702b9-d1e2-4d8d-b761-a5b9c89b57d9.png)
 
@@ -361,10 +422,14 @@ A su vez, la representación de las estadísticas de las torres se realiza media
 
 ![Horda](https://user-images.githubusercontent.com/56488179/142732450-238aba64-f947-4ea5-aa23-d3785851458e.png)
 
+- Enemigo volador:
+
+![Aereo](https://user-images.githubusercontent.com/56488179/142773870-f647b0ed-0cb2-446b-b71a-fbb24b6bc1cd.png)
 
 ### 6.3 Música
 
 El juego cuenta con una sola canción (autor: [Pascual Gázquez Compán](https://open.spotify.com/artist/7y2dfMVexZgClCIeiHd22f?si=Q2ch-_AVR8CC8a927irtxw&utm_source=copy-link)) la cual se reproduce tanto en los menúes como durante la partida.
+
 
 ### 6.4 Ambiente sonoro
 
@@ -378,11 +443,11 @@ La interfaz del juego consta de 7 ventanas:
 
 - Menú principal:
 
-![menuPrinc](https://user-images.githubusercontent.com/56488179/142733247-62b3fdcd-5cf8-46d4-9e33-b49a61d4eded.png)
+![menuPrinc](https://user-images.githubusercontent.com/56488179/142777098-17abb069-96f6-4e93-a960-d05407b42c2a.png)
 
 - Ajustes:
 
-![menuAjustes](https://user-images.githubusercontent.com/56488179/142733250-f56553c5-ce54-4c9e-8209-1d37c487f0cf.png)
+![menuAjustes](https://user-images.githubusercontent.com/56488179/142775932-6e72387a-2e4e-412e-9064-0d2783f9c809.png)
 
 - Tutoriales:
 
@@ -535,19 +600,21 @@ En general, en el grupo hay muy buen ambiente de trabajo, consiguen hacer todo e
 ### 9.2 Hito 2: Beta
 
 - Interfaz implementada con estructura final y arte de GUI final: 19/11/2021
-- Tutorial introductorio en el que se expliquen las mecánicas básicas:
+- Tutorial introductorio en el que se expliquen las mecánicas básicas: 20/11/2021
 - Balanceo de las estadisticas de enemigos y torres para hacer el juego divertido y justo: 15/11/2021
-- Crear y meter en el juego los 3 modelos de enemigo y los 6 modelos de torre/defensa:
+- Crear y meter en el juego los 4 modelos de enemigo y los 6 modelos de torre/defensa: 20/11/2021
 - Nueva mecánica característica: No alcanzado
 - Añadir offset para la colocación de torres: 19/11/2021
 - Arreglar proporciones de las torres en el cubo: 18/11/2021
 - Dirigir correctamente la barra de vida de los enemigos hacia la camara del jugador: 16/11/2021
-- Portfolio actualizado en su nueva versión: 
+- Portfolio actualizado en su nueva versión: 21/11/2021
+- Añadir estanque en el spawn de los enemigos: 19/11/2021
 
 ### 9.3 Hito 3: Gold
 
 - Pulir la generación de caminos en el cubo:
-- Añadir estanque en el spawn de los enemigos:
+- Dar nombres definitivos a las torres y enemigos:
+- Añadir elementos restantes a la interfaz:
 - Añadir animaciones a las torres:
 - Añadir efectos de partículas al disparo de la torre que ralentiza, a la entrada de los enemigos en el estanque y al caminar de los enemigos:
 - Añadir efectos de sonido a la muerte de los enemigos, a la llegada de estos al estanque del jugador y a la construcción y mejora de las torres:
